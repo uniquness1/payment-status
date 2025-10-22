@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html {
+  background: #eee;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
