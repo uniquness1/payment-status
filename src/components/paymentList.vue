@@ -36,10 +36,10 @@
 import { ref } from 'vue';
 
 const people = ref([
-    { name: 'You', initial: 'Y', paid: true, color: '#f87171' },
-    { name: 'Olabode', initial: 'O', paid: true, color: '#fb923c' },
-    { name: 'Lukmon', initial: 'L', paid: true, color: '#60a5fa' },
-    { name: 'Hope', initial: 'H', paid: false, color: '#f472b6' },
-    { name: 'Dara', initial: 'D', paid: false, color: '#a78bfa' }
+    { name: 'You', paid: true, color: '#f87171' },
+    { name: 'Olabode', paid: true, color: '#fb923c' },
+    { name: 'Lukmon', paid: true, color: '#60a5fa' },
+    { name: 'Hope', paid: false, color: '#f472b6' },
+    { name: 'Dara', paid: false, color: '#a78bfa' }
 ]);
 </script>
